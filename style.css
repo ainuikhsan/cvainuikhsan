@@ -25,10 +25,12 @@ header {
 }
 
 .profile-picture {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+    width: 150px; /* Sesuaikan ukuran yang diinginkan */
+    height: 150px; /* Tinggi dan lebar harus sama agar 1:1 */
+    border-radius: 50%; /* Untuk membuat gambar menjadi lingkaran */
+    object-fit: cover; /* Crop gambar agar sesuai dengan kontainer */
+    display: block;
+    margin: 0 auto;
 }
 
 h1 {
